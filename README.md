@@ -9,7 +9,7 @@ onda para melhorar minhas habilidade de programador Front End, passando para có
 purple_heart:
 
 # :bookmark: Layout
-Você pode visualizar o layout do projeto através desse [desse link](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web). Lembrando que você precisa ter uma conta no [Figma](https://www.figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através desse [desse link](https://www.figma.com/file/HzBogAbLLxKCMAhkW4rPxE/DAILY-UI%2F-001?node-id=0%3A1). Lembrando que você precisa ter uma conta no [Figma](https://www.figma.com) para acessá-lo.
 
 # :memo: Direitos
 # UI/UX DESIGN
