@@ -4,7 +4,7 @@
 * CSS
 * HTML
 # :computer: Projeto
-Aproveitando o desafio do <a href="https://www.instagram.com/ui.luke/" target="_blank">@Ui.Luke</a> pra treinar sua criatividade construindo Interfaces, vou entrar na
+Aproveitando o desafio do <a href="https://www.instagram.com/ui.luke/" target="_blank">@Ui.Luke</a>a pra treinar sua criatividade construindo Interfaces, vou entrar na
 onda para melhorar minhas habilidade de programador Front End, passando para código as interfaces que ele cria.
 purple_heart:
 
