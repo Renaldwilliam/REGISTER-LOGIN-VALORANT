@@ -1,5 +1,5 @@
   # REGISTER/LOGIN
-![GitHub Logo]()
+![GitHub Logo](https://media-exp1.licdn.com/dms/image/C4D22AQH0Pm-CjwtXew/feedshare-shrink_1280/0/1643159928977?e=1646265600&v=beta&t=PNB_yB9PVJnxsAz9BHmiFCVqx1FC4f_5yXiQPDAfN90)
 # :rocket: Tecnologias 
 * CSS
 * HTML
