@@ -11,6 +11,17 @@ purple_heart:
 # :bookmark: Layout
 Você pode visualizar o layout do projeto através desse [desse link](https://www.figma.com/file/HzBogAbLLxKCMAhkW4rPxE/DAILY-UI%2F-001?node-id=0%3A1). Lembrando que você precisa ter uma conta no [Figma](https://www.figma.com) para acessá-lo.
 
+# Getting Started :flags:
+
+## Step 1:
+Faça o clone do projeto para sua máquina.
+
+``` 
+https://github.com/Renaldwilliam/REGISTER-LOGIN-VALORANT.git
+```
+## Step 2:
+- abra o codigo no visual code e se divirta
+
 # :memo: Direitos
 # UI/UX DESIGN
 <p align="">
