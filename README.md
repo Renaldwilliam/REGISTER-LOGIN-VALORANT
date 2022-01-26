@@ -24,7 +24,7 @@ Você pode visualizar o layout do projeto através desse [desse link](https://ww
 [![Behance](https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/lucasbarrosdsgn)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucasbarrostl/)](https://www.linkedin.com/in/lucasbarrostl/)
 
-# Dev
+### Dev
 <p align="">
   <img src="https://avatars.githubusercontent.com/u/55859434?v=4" width="150" height="150" title="hover text" style="border-radius:50%">
 </p>
