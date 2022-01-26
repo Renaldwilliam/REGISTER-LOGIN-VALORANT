@@ -1,0 +1,287 @@
+/*Reset CSS*/
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/*Fontes utilizadas*/
+
+@font-face {
+  font-family: "DIN Next LT Pro Regular";
+  src: url(/assets/fonte/DINNextLTPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "DIN Next LT Pro bold";
+  src: url(/assets/fonte/DINNextLTPro-Bold.ttf);
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.formulario {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 151px;
+  padding-top: 60px;
+
+  background-color: #080718;
+}
+
+.formulario h1 {
+  font-family: "DIN Next LT Pro bold";
+  margin-top: 92px;
+  font-size: 20px;
+  color: white;
+}
+
+.formulario span {
+  font-family: "DIN Next LT Pro Regular";
+  font-weight: 200;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+}
+
+.form label {
+  font-family: "DIN Next LT Pro Regular";
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+}
+
+.form input[type="text"] {
+  width: 364px;
+  height: 46px;
+  padding: 16px;
+  margin-top: 11px;
+  margin-bottom: 52px;
+
+  border: none;
+  color: white;
+  background-color: #201e34;
+}
+
+.form input[type="password"] {
+  width: 364px;
+  height: 46px;
+  margin-top: 11px;
+  margin-bottom: 52px;
+  padding: 16px;
+  color: white;
+  border: none;
+  background-color: #201e34;
+}
+
+/*Alterando cor do placehold do input*/
+::placeholder {
+  opacity: 1; /* Firefox */
+  font-size: 18px;
+  color: #302e44;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 18px;
+  color: #302e44;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-size: 18px;
+  color: #302e44;
+}
+
+/*Crinado Efeito do CheckBoxes Inicio*/
+
+.box-checkboxes {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.box-checkboxes input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+}
+
+label.box-checkboxes {
+  font-family: "DIN Next LT Pro Regular";
+  font-size: 10px;
+  color: white;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+}
+
+/* Ao passar o mouse, adicione uma cor de fundo #5c51a7 */
+.box-checkboxes:hover input ~ .checkmark {
+  background-color: #5c51a7;
+}
+
+/* Quando a caixa de seleção estiver marcada, adicione um fundo #452ed1*/
+.box-checkboxes input:checked ~ .checkmark {
+  background-color: #452ed1;
+}
+
+/* Crie a marca de seleção/indicador (oculto quando não marcado) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/*  Mostrar a marca de seleção quando marcada */
+.box-checkboxes input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Estilo a marca de seleção/indicador */
+.box-checkboxes .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid white;
+  border-width: 0 3px 3px 0;
+}
+
+/*Crinado Efeito do CheckBoxes Fim*/
+
+.btn-submit {
+  font-family: "DIN Next LT Pro bold";
+  font-size: 18px;
+  width: 364px;
+  height: 46px;
+  margin-top: 40px;
+  background-color: #452ed1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #6350d8;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: space-between;
+  width: 364px;
+  gap: 10px;
+}
+
+.box-text {
+  width: 364px;
+  font-size: 14px;
+  font-family: "DIN Next LT Pro Regular";
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.box-text-last {
+  width: 364px;
+  font-size: 14px;
+  font-family: "DIN Next LT Pro Regular";
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-top: 74px;
+  cursor: pointer;
+}
+
+.box-text-last span {
+  width: 364px;
+  font-family: "DIN Next LT Pro bold";
+  font-size: 14px;
+  font-weight: bold;
+  font-weight: 500;
+  text-align: center;
+  color: #452ed1;
+  margin-bottom: 20px;
+}
+
+.art {
+  background-color: #080718;
+  position: relative;
+  width: 63%;
+  height: 100%;
+}
+
+.art img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.btn-social {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.btn-social:hover {
+  filter: opacity(90%);
+}
+.btn-social-fc {
+  background-color: #056de5;
+}
+
+.btn-social-google {
+  background-color: white;
+}
+
+.btn-social-apple {
+  background-color: #171717;
+}
+
+/*Media query caso for preciso*/
+@media (min-width: 1250px) and (max-width: 1550px) {
+}
